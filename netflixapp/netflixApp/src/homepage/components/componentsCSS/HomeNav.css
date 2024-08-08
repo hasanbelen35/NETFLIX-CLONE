@@ -1,0 +1,227 @@
+.home-page-image {
+    width: 100%;
+    display: block;
+    height: 400px;
+}
+
+.home-page-header {
+    background: url('../header/ımage.svg');
+    background-size: cover;
+    height: 600px;
+    filter: blur(0.5px);
+    box-shadow: inset 0 100px 100px -2px rgba(0, 0, 0, 0.5),
+        inset 0 -100px 100px -2px rgba(0, 0, 0, 0.5);
+}
+
+.home-page-nav {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage-nav-options {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    align-items: center;
+}
+
+.homepage-nav-icon {
+    color: red;
+    font-size: 75px;
+}
+
+#homepage-nav-select {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    height: 2.5em;
+    width: 6em;
+
+}
+
+.homepage-nav-button {
+    border: none;
+    color: #fff;
+    background-color: red;
+    width: 6em;
+    height: 2.5em;
+}
+
+.homepage-header-info {
+    color: #ffff;
+    margin-top: 10em;
+    text-align: center;
+}
+
+.homepage-header-info-options .homepage-header-info-options-email {
+    border: 2px solid red;
+    background-color: #454D5B;
+    color: #ffff;
+    opacity: 0.4;
+    height: 3em;
+    width: 22em;
+}
+
+.homepage-header-info-options .homepage-header-info-options-button {
+    border: none;
+    background-color: red;
+    color: white;
+    height: 3em;
+    width: 10em;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.homepage-header-info h1,
+h3,
+h5 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.homepage-header-blur {
+    width: 100%;
+    height: 10px;
+    background-color: #232323;
+}
+
+.gif-div {
+    display: flex;
+    background-color: #000000;
+    color: #ffff;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 450px;
+}
+
+.gif-div .gif-div-info {
+    margin-top: 80px;
+
+    h1 {
+        font-weight: 800;
+    }
+}
+
+.homepage-main-download-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffff;
+    background-color: #000;
+}
+
+.homepage-main-download-info h1,
+h4 {
+    font-weight: 800;
+}
+
+.homepage-watch-section {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+}
+
+.homepage-watch-section .homepage-watch-section-info h1,
+h5 {
+    font-weight: 800;
+}
+
+.homepage-watch-section .homepage-watch-section-gif {
+    margin-bottom: 120px;
+}
+
+.homepage-watch-section .homepage-watch-section-gif .homeWatchGif2 {
+    position: relative;
+    z-index: 1000;
+    height: 200px;
+    width: 385px;
+    left: 105px;
+    top: 60px;
+}
+
+.homepage-watch-section .homepage-watch-section-gif .homeWatchGif {
+    position: absolute;
+    z-index: 2000;
+}
+
+.homepage-createForKids-section {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.homepage-createForKids-section .createForKids-info h1,
+h4 {
+    font-weight: 800;
+}
+
+.homepage-createForKids-section .createForKids-image {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.homepage-questionsPage-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 5em;
+}
+
+.homepage-questionsPage-section .homepage-questionPage-section-title h1 {
+    font-weight: 800;
+}
+
+.homepage-questionsPage-section .question-div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    justify-content: space-between;
+    background-color: #2D2D2D;
+    transition: all 0.5s ease;
+}
+
+.homepage-questionsPage-section .question-div:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.homepage-question-section-form {
+    margin-top: 25px;
+}
+
+.homepage-question-section-form span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-question-section-form .homepage-question-section-form-input {
+    border: 2px solid red;
+    background-color: #454D5B;
+    color: #ffff;
+    opacity: 0.4;
+    height: 3em;
+    width: 22em;
+}
+
+.homepage-question-section-form .homepage-question-section-form-button {
+    border: none;
+    background-color: red;
+    color: white;
+    height: 3em;
+    width: 10em;
+    font-weight: 600;
+    margin-left: 10px;
+}
